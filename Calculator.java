@@ -15,9 +15,9 @@ public class Calculator {
         
         if (operation == '+') {
             System.out.println(number1 + number2);
-        } else if (operation == '*') {
-            System.out.println(number1 - number2);
         } else if (operation == '-') {
+            System.out.println(number1 - number2);
+        } else if (operation == '*') {
             System.out.println(number1 * number2);
         } else if (operation == '/') {
             System.out.println(number1 / number2); 
